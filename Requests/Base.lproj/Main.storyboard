@@ -75,7 +75,7 @@
         <!--IMAGE-->
         <scene sceneID="0CI-tq-dj9">
             <objects>
-                <viewController id="ECx-Re-FNk" sceneMemberID="viewController">
+                <viewController id="ECx-Re-FNk" customClass="ImageViewController" customModule="Requests" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tgI-rz-EpK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -99,6 +99,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="IMAGE" id="zyV-bY-9OC"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="qbU-DC-9E0" id="Chf-kp-7BE"/>
+                        <outlet property="imageView" destination="5fk-fr-kes" id="39k-eR-FMj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f4L-ND-hFe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
